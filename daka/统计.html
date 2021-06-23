@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.easytabs.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#lib_Tab').easytabs();
+				$(".biginput").css('width', $(".biginput").val().length*16+16 + 'px');
+			});
+		</script>
+		<!--<script>
+function demo() {
+var testLength = $(".biginput").val().length;
+$(".biginput").css('width', testLength*16+16 + 'px');
+}-->
+</script>
+		<title>统计</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<a href="javascript:history.go(-1)" class="iconfont icon-back" style="left:0"></a>
+			<a href="帮助.html" class="help">帮助</a>
+			<h1>统计<span class="mLR5">/</span><b class="nb">English eskjd Sjfkd</b></h1>
+		</header>
+		<section class="content">
+			<article>
+				<section id="lib_Tab">
+					<ul class="mt mt15">
+						<li>
+							<a href="#tab1">团队考勤</a>
+						</li>
+						<li>
+							<a href="#tab2">我的考勤</a>
+						</li>
+					</ul>
+					<section id="tab1">
+						<div class="weui_cells_title  rel"><i class="iconfont icon-bijiben mr5 f18 cbl"></i>
+							<input type="" value="集团信息管理中心" class="biginput" onkeypress="demo()"/><i class="iconfont icon-arrowdown f12 cg" style="margin-left: -15px;"></i>
+							<div class="more">
+								<a onclick="$('.search').toggle()" href="javascript:;" class="abtn bgr">精确查询</a>
+							</div>
+							<div class="box search"><input type="text"><input type="button" id="" value=""></div>
+						</div>
+						<div class="box">
+							<h1 class="boxtitle">
+								<input type="" value="2016年7月13日" class="biginput" onkeypress="demo()"><i class="iconfont icon-arrowdown f12 cg" style="margin-left: -15px;"></i>
+	        </h1>
+							<div class="f0">
+
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>应到</p>
+								</div>
+								<div class="inline_three tc f12 blr1 pt5 pb5"><span class="f24 cbl fa cr">100%</span>
+									<p>到岗率</p>
+								</div>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>实到</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="box">
+							<h1 class="boxtitle"><input type="" value="2016年7月13日" class="biginput" onkeypress="demo()"><i class="iconfont icon-arrowdown f12 cg" style="margin-left: -15px;"></i>
+	        </h1>
+							<div class="f0">
+								<div class="tongji">
+									<table>
+										<tr>
+											<td><span>正常打卡</span><b class="cgr mLR5">15</b>次</td>
+											<td><span>外勤打卡</span><b class="mLR5">15</b>次 </td>
+										</tr>
+										<tr>
+											<td><span>迟到</span><b class="cyl mLR5">15</b>次 </td>
+											<td><span>早退</span><b class="cyl mLR5">15</b>次</td>
+										</tr>
+										<tr>
+											<td><span>休息</span><b class="mLR5">15</b>次</td>
+											<td><span>缺卡</span><b class="cyl mLR5">15</b>次</td>
+										</tr>
+										<tr>
+											<td><span>未排班</span><b class="mLR5">15</b>次</td>
+											<td><span>旷工</span><b class="cr mLR5">15</b>次</td>
+										</tr>
+										<tr>
+											<td><span>外出</span><b class="mLR5">15</b>次</td>
+											<td><span>请假</span><b class="cyl mLR5">15</b>次 </td>
+										</tr>
+										<tr>
+											<td><span>出差</span><b class="mLR5">15</b>次</td>
+											<td><span>加班</span><b class="cgr mLR5">15</b>次</td>
+										</tr>
+									</table>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="box">
+							<div class="f0">
+								<a class="boxtitle2"><i class="iconfont icon-bijiben mr5"></i>项目开发与实施部<i class="iconfont icon-next ml10 more cGray"></i></a>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>应到</p>
+								</div>
+								<div class="inline_three tc f12 blr1 pt5 pb5"><span class="f24 cbl fa cr">100%</span>
+									<p>到岗率</p>
+								</div>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>实到</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="box">
+							<div class="f0">
+								<a class="boxtitle2"><i class="iconfont icon-bijiben mr5"></i> 运营服务部 <i class="iconfont icon-next ml10 more cGray"></i></a>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>应到</p>
+								</div>
+								<div class="inline_three tc f12 blr1 pt5 pb5"><span class="f24 cbl fa cr">100%</span>
+									<p>到岗率</p>
+								</div>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>实到</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="box">
+							<div class="f0">
+								<a class="boxtitle2"><i class="iconfont icon-bijiben mr5"></i>IT规划与流程管理部 <i class="iconfont icon-next ml10 more cGray"></i></a>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>应到</p>
+								</div>
+								<div class="inline_three tc f12 blr1 pt5 pb5"><span class="f24 cbl fa cr">100%</span>
+									<p>到岗率</p>
+								</div>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>实到</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="box">
+							<div class="f0">
+								<a class="boxtitle2"><i class="iconfont icon-bijiben mr5"></i>网络与数据中心运维部 <i class="iconfont icon-next ml10 more cGray"></i></a>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>应到</p>
+								</div>
+								<div class="inline_three tc f12 blr1 pt5 pb5"><span class="f24 cbl fa cr">100%</span>
+									<p>到岗率</p>
+								</div>
+								<div class="inline_three tc f12 pt5 pb5"><span class="f24 cbl fa cr">15 <span class="f12">人</span></span>
+									<p>实到</p>
+								</div>
+							</div>
+
+						</div>
+					</section>
+					<section id="tab2">
+						<div class="weui_cells_title f18"><i class="iconfont icon-date mr5"></i>日期</div>
+						<div class="weui_cells weui_cells_access">
+							<a class="weui_cell" href="javascript:;">
+								<div class="weui_cell_bd weui_cell_primary">
+									<p><input value="2016年7月13日" class="bn" readonly="readonly" name="appDate" id="appDate" type="text"></p>
+								</div>
+								<div class="weui_cell_ft">
+								</div>
+							</a>
+						</div>
+						<div class="weui_cells">
+							<div class="weui_cell weui_cell_select weui_select_after">
+
+								<div class="weui_cell_bd weui_cell_primary">
+
+								</div>
+							</div>
+						</div>
+						<div class="weui_cells p10">
+							<div class="f0">
+								<div class="inline_four tc f12 cwh bgb pt5 pb5" style="border-radius: 5px;"><span class="f24 fa">15 <span class="f12">天</span></span>
+									<p>正常考勤</p>
+								</div>
+								<div class="inline_four tc f12 pt5 pb5"><span class="f24 cyl fa cr">2 <span class="f12">次</span></span>
+									<p>迟到</p>
+								</div>
+								<div class="inline_four tc f12 blr1 pt5 pb5" style="width: 24%;"><span class="f24 cyl fa cr">1 <span class="f12">次</span></span>
+									<p>早退</p>
+								</div>
+								<div class="inline_four tc f12 pt5 pb5"><span class="f24 cyl fa cr">4 <span class="f12">次</span></span>
+									<p>缺卡</p>
+								</div>
+							</div>
+						</div>
+						<div class="weui_cells p10">
+							<div class="timebox his">
+								<span class="bgr"></span>
+								<h2>早退</h2>
+								<p>
+									<a href="打卡详情.html">2016-07-20（星期三）16:19</a>
+								</p>
+								<p>
+									<a href="JavaScript:''" class="abtn btnYellow">早退1小时40分</a>
+								</p>
+							</div>
+							<div class="timebox his">
+								<span class="bgr"></span>
+								<h2>缺卡</h2>
+								<p>
+									<a href="打卡详情.html">2016-07-20（星期三）16:19</a>
+								</p>
+								<p>
+									<a href="" class="abtn btnYellow">早退1小时40分</a>
+								</p>
+							</div>
+							<div class="timebox his">
+								<span></span>
+								<h2>正常打卡</h2>
+								<p>
+									<a href="打卡详情.html">2016-07-20（星期三）16:19</a>
+								</p>
+							</div>
+							<div class="timebox his">
+								<span></span>
+								<h2>正常打卡</h2>
+								<p>
+									<a href="打卡详情.html">2016-07-20（星期三）16:19</a>
+								</p>
+							</div>
+						</div>
+					</section>
+				</section>
+			</article>
+
+		</section>
+		<footer class="footer inline-box">
+			<a href="考勤打卡.html" class="inline_two">
+				<p><i class="iconfont icon-icon26 f20"></i></p>
+				<p>考勤打卡<span class="mLR5">/</span>English</p>
+			</a>
+			<a href="统计.html" class="inline_two active">
+				<p><i class="iconfont icon-tongji f20"></i></p>
+				<p>统计<span class="mLR5">/</span>English</p>
+			</a>
+		</footer>
+		<script src="js/fastclick.js"></script>
+		<script>
+			FastClick.attach(document.body);
+		</script>
+	</body>
+
+</html>

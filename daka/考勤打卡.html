@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<link rel="stylesheet" href="css/weui.min.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/iconfont.css" />
+<link rel="stylesheet" href="css/main.css" />
+<!-- This is what you need -->
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<link rel="stylesheet" href="css/sweetalert.css">
+<title>考勤打卡</title>
+</head>
+<body>
+<header class="header">
+<a href="javascript:history.go(-1)" class="iconfont icon-back" style="left:0"></a>
+<a href="帮助.html" class="help">帮助</a>
+<h1>考勤打卡<span class="mLR5">/</span><b class="nb">English eskjd Sjfkd</b></h1>
+</header>
+<section class="content">
+<article>
+		<div class="weui_cells weui_cells_access mb10">
+			<a class="weui_cell" href="">
+				<div class="weui_cell_hd"><i class="iconfont icon-date mr5"></i></div>
+				<div class="weui_cell_bd weui_cell_primary">
+					<p>星期三 2016年7月13日</p>
+				</div>
+				<div class="weui_cell_ft">
+								</div>
+			</a>
+		</div>
+		<div class="weui_cells p10">
+			<p class="mb20 mt10">生命不是一场赛跑，而是一场旅行。</p>
+			<div class="timebox">
+				<span>上</span>
+				<h2>上班时间08:30分 <p>Work time Scdd dkks</p></h2>
+				<p><i class="iconfont icon-dizhi mr5"></i>天狮总部办公大楼</p>
+				<p>
+					<a href="">更新打卡<i class="iconfont icon-shuaxin"></i></a>
+				</p>
+				<p>
+					<a href="" class="abtn btnYellow">缺卡</a>
+				</p>
+				<p>
+					<a href="" class="abtn btnYellow">早退</a>
+				</p>
+
+			</div>
+			<div class="timebox pb0">
+				<span>下</span>
+				<h2>下班时间17:30分<p></p></h2>
+				<p><i class="iconfont icon-dizhi mr5"></i>天狮总部办公大楼</p>
+				<p>
+					<a href="">更新打卡<i class="iconfont icon-shuaxin"></i></a>
+				</p>
+				<p>
+					<a href="" class="abtn btnYellow">缺卡/English Text</a>
+				</p>
+				<p>
+					<a href="" class="abtn btnYellow">早退/English Text</a>
+				</p>
+			</div>
+			<p class="mt20 mb10">生命不是一场赛跑，而是一场旅行。</p>
+		</div>
+		<div class="p10 tc mt15">
+			<button class="btnBig blue"><i class="iconfont icon-weibiaoti1 f24"></i><h3>上班打卡</h3>English Used jkjklsk</button>
+			<button class="btnBig blue"><i class="iconfont icon-userrunlight f24"></i><h3>下班打卡</h3>English Used jkjklsk</button>
+			<button class="btnBig yellow"><i class="iconfont icon-weibiaoti1 f24"></i><h3>迟到打卡</h3>English Used jkjklsk</button>
+			<p class="mt10">已进入考勤范围：天狮总部办公大楼
+				<a href="" class="abtn btnBlue ml10">地点微调</a>
+			</p>
+		</div>
+	</article>
+</section>
+<footer class="footer inline-box">
+<a href="考勤打卡.html" class="inline_two active">
+		<p><i class="iconfont icon-icon26 f20"></i></p>
+		<p>考勤打卡<span class="mLR5">/</span>English</p>
+	</a>
+<a href="统计.html" class="inline_two">
+		<p><i class="iconfont icon-tongji f20"></i></p>
+		<p>统计<span class="mLR5">/</span>English</p>
+	</a>
+</footer>
+<script type="text/javascript">
+document.querySelector('.btnBig').onclick = function() {
+	    swal({ title: "打卡成功！", text: "16：40", type: "success", showCancelButton: false, confirmButtonColor: "", confirmButtonText: "OK！", closeOnConfirm: false }, function () { 
+	    window.location.href="打卡详情.html";});
+	};
+</script>
+<script src="js/fastclick.js"></script>
+<script>
+	FastClick.attach(document.body);
+</script>
+</body>
+</html>

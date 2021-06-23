@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<link rel="stylesheet" href="css/weui.min.css"/>
+<link rel="stylesheet" href="css/sweetalert.css"/>
+<link rel="stylesheet" href="css/common.css"/>
+<link rel="stylesheet" href="css/iconfont.css"/>
+<link rel="stylesheet" href="css/main.css"/>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.easytabs.js"></script>
+<title>签到</title>
+</head>
+<body>
+<header class="header"><a href="javascript:history.go(-1)" class="iconfont icon-back" style="left:0"></a><a href="帮助.html" class="help">帮助</a>
+  <h1>团队足迹</h1>
+</header>
+<section class="content">
+<article>
+<div class="rel">
+<select name="select1" style=" padding: 2px; border-radius: 5px; " class="mt10 ml10 abs">
+<option selected="" value="1">范围：集团信息管理中心</option>
+<option value="2">赵履元</option>
+<option value="3">赵履元</option>
+<option value="3">赵履元</option>
+<option value="3">赵履元</option>
+<option value="3">赵履元</option>
+<option value="3">赵履元</option>
+<option value="3">赵履元</option>
+</select>
+<select name="select1" style=" padding: 2px; border-radius: 5px; top:27px;" class="mt10 ml10 abs">
+<option selected="" value="1">日期：07-01</option>
+<option value="2">07-02</option>
+<option value="3">07-01</option>
+<option value="3">07-01</option>
+<option value="3">07-01</option>
+<option value="3">07-01</option>
+<option value="3">07-01</option>
+<option value="3">07-01</option>
+</select>
+<a href="足迹分布.html" class="abtn btnBlue abs" style="right: 10px; bottom: 10px;">足迹分布</a>
+<img src="img/map.jpg" class="pct100"/>
+
+</div>
+ <div id="tab-full-container" class='tab-container weui_tab'>
+ <div class='etabs weui_navbar'>
+  <span class='tab weui_navbar_item' id="tab-2"><a href="#tabs1">已签到</a></span>
+  <span class='tab weui_navbar_item'><a href="#tabs2">未签到</a></span>
+ </div>
+ <div class="weui_tab_bd"></div>
+ <div class='panel-container'>
+  <div id="tabs1">
+   	<div class="weui_panel weui_panel_access">
+<div class="weui_panel_bd">
+            <a href="我的签到.html" class="weui_media_box weui_media_appmsg">
+                <div class="weui_media_hd">
+                    <img class="weui_media_appmsg_thumb" src="img/user.jpg" alt="">
+                </div>
+                <div class="weui_media_bd">
+                    <h4 class="weui_media_title">刘万智</h4>
+                    <p class="f14">09:46 今日已签到 <b class="cblue">1</b> 次</p>
+                    <p class="weui_media_desc"><i class="iconfont icon-dizhi mr5"></i>天津市武清开发区飞将对抗赛就分开的数据连接</p>
+                </div>
+            </a>
+            <a href="我的签到.html" class="weui_media_box weui_media_appmsg">
+                <div class="weui_media_hd">
+                    <img class="weui_media_appmsg_thumb" src="img/user.jpg" alt="">
+                </div>
+                <div class="weui_media_bd">
+                    <h4 class="weui_media_title">刘万智</h4>
+                    <p class="f14">09:46 今日已签到 <b class="cblue">1</b> 次</p>
+                    <p class="weui_media_desc"><i class="iconfont icon-dizhi mr5"></i>开发区幸福道，天津市武清开发区飞将对抗赛就分开的数据连接</p>
+                </div>
+            </a>
+        </div>
+</div>
+
+   <!-- content -->
+  </div>
+   <div id="tabs2">
+   <div class="photoList">
+   	<ul>
+   		<li><a href="#"><img src="img/user.jpg" alt="" /></a><p>刘万智</p></li>
+   		<li><a href="#"><img src="img/user.jpg" alt="" /></a><p>刘万智</p></li>
+   		<li><a href="#"><img src="img/user.jpg" alt="" /></a><p>刘万智</p></li>
+   		<li><a href="#"><span>刘万智</span></a><p></p></li>
+   	</ul>
+   </div>
+   <!-- content -->
+  </div>
+ </div>
+</div>
+
+</article>
+
+</section>
+<footer class="footer inline-box">
+<a href="签到.html" class="inline_two">
+  <p><i class="iconfont icon-icon26 f20"></i></p>
+  <p>签到</p>
+  </a>
+ <a href="足迹.html" class="inline_two active">
+  <p><i class="iconfont icon-foot f20"></i></p>
+  <p>足迹</p>
+  </a>
+</footer>
+<script type="text/javascript">
+$(document).ready( function() {
+	
+$("#tab-full-container").easytabs({
+animate: true,
+animationSpeed: 100,
+defaultTab: "span#tab-2",
+tabActiveClass: "weui_bar_item_on",
+tabs: "> div > span"
+});
+
+});
+</script>
+<script src="js/fastclick.js"></script> 
+<script>
+FastClick.attach(document.body);
+</script>
+</body>
+</html>
